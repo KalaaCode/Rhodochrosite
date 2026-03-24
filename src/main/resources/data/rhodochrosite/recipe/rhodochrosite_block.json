@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "r": {
+    "#": {
       "item": "rhodochrosite:rhodochrosite"
     }
   },
   "pattern": [
-    "rrr",
-    "rrr",
-    "rrr"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "count": 1,
