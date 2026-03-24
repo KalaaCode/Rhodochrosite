@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "rhodochrosite",
+	"version": "${version}",
+	"name": "Rhodochrosite",
+	"description": "Adds an interesting new ore called Rhodochroosite!",
+	"authors": [
+		"KalaaCode"
+	],
+	"contact": {
+		"homepage": "https://Kalaa.net",
+		"sources": "https://github.com/KalaaCode/Rhodochrosite 1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/rhodochrosite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kalaa.rhodochrosite.Rhodochrosite"
+		],
+		"fabric-datagen": [
+			"net.kalaa.rhodochrosite.RhodochrositeDataGenerator"
+		],
+		"client": [
+			"net.kalaa.rhodochrosite.RhodochrositeClient"
+		]
+	},
+	"mixins": [
+		"rhodochrosite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
