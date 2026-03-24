@@ -3,5 +3,8 @@
   "item.rhodochrosite.raw_rhodochrosite": "Raw Rhodochrosite",
 
   "block.rhodochrosite.rhodochrosite_block": "Block of Rhodochrosite",
-  "block.rhodochrosite.raw_rhodochrosite_block": "Block of Raw Rhodochrosite"
+  "block.rhodochrosite.raw_rhodochrosite_block": "Block of Raw Rhodochrosite",
+
+  "itemgroup.rhodochrosite.rhodochrosite_items": "Rhodochrosite Items",
+  "itemgroup.rhodochrosite.rhodochrosite_blocks": "Rhodochrosite Blocks"
 }
