@@ -16,7 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RHODOCHROSITE))
                     .displayName(Text.translatable("itemgroup.rhodochrosite.rhodochrosite_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.RHODOCHROSITE_BLOCK);
+                        entries.add(ModItems.RHODOCHROSITE);
                         entries.add(ModItems.RAW_RHODOCHROSITE);
                     }).build());
 
