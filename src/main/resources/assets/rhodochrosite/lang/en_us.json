@@ -5,6 +5,9 @@
   "block.rhodochrosite.rhodochrosite_block": "Block of Rhodochrosite",
   "block.rhodochrosite.raw_rhodochrosite_block": "Block of Raw Rhodochrosite",
 
+  "block.rhodochrosite.rhodochrosite_ore": "Rhodochrosite Ore",
+  "block.rhodochrosite.rhodochrosite_deepslate_ore": "Deepslate Rhodochrosite Ore",
+
   "itemgroup.rhodochrosite.rhodochrosite_items": "Rhodochrosite Items",
   "itemgroup.rhodochrosite.rhodochrosite_blocks": "Rhodochrosite Blocks"
 }

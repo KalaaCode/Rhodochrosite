@@ -27,6 +27,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RHODOCHROSITE_BLOCK);
                         entries.add(ModBlocks.RAW_RHODOCHROSITE_BLOCK);
+                        entries.add(ModBlocks.RHODOCHROSITE_ORE);
+                        entries.add(ModBlocks.RHODOCHROSITE_DEEPSLATE_ORE);
                     }).build());
 
 
