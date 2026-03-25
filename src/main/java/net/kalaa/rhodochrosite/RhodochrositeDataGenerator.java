@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.kalaa.rhodochrosite.datagen.ModBlockTagProvider;
 import net.kalaa.rhodochrosite.datagen.ModLootTableProvider;
+import net.kalaa.rhodochrosite.datagen.ModModelProvider;
 
 public class RhodochrositeDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -12,5 +13,6 @@ public class RhodochrositeDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
 	}
 }
