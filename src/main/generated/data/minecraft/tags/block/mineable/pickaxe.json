@@ -1,0 +1,12 @@
+{
+  "values": [
+    "rhodochrosite:rhodochrosite_block",
+    "rhodochrosite:raw_rhodochrosite_block",
+    "rhodochrosite:rhodochrosite_ore",
+    "rhodochrosite:rhodochrosite_deepslate_ore",
+    "rhodochrosite:rhodochrosite_stairs",
+    "rhodochrosite:rhodochrosite_slab",
+    "rhodochrosite:rhodochrosite_wall",
+    "rhodochrosite:rhodochrosite_lantern"
+  ]
+}

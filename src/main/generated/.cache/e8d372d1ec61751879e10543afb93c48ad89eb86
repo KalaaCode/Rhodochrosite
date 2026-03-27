@@ -1,0 +1,4 @@
+// 1.21.1	2026-03-27T00:21:51.0735897	Rhodochrosite/Tags for minecraft:block
+90ba7fbfd6fbb03cd7413a981516635a57d7dd0c data\minecraft\tags\block\mineable\pickaxe.json
+b6c9ca5ad4985226739fbfdccf4b5c6ab1108aa7 data\minecraft\tags\block\needs_iron_tool.json
+3223cb23f5c647093f5c5be16aa33f7c7c8903e1 data\minecraft\tags\block\walls.json

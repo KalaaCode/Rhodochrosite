@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "rhodochrosite:block/rhodochrosite_lantern"
+    },
+    "hanging=true": {
+      "model": "rhodochrosite:block/rhodochrosite_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rhodochrosite:block/rhodochrosite_slab"
+    },
+    "type=double": {
+      "model": "rhodochrosite:block/rhodochrosite_block"
+    },
+    "type=top": {
+      "model": "rhodochrosite:block/rhodochrosite_slab_top"
+    }
+  }
+}

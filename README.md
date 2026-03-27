@@ -1,1 +1,1 @@
-A minecraft mod that adds an interesting, new, decorative pink ore called Rhodochrosite
+A minecraft mod that adds an interesting, new, decorative pink ore called Rhodochrosite!
