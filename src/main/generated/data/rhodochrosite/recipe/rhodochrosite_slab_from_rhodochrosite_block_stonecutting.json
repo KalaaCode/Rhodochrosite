@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "rhodochrosite:rhodochrosite_block"
+  },
+  "result": {
+    "count": 2,
+    "id": "rhodochrosite:rhodochrosite_slab"
+  }
+}

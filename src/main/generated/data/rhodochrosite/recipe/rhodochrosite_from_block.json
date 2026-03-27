@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rhodochrosite:rhodochrosite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "rhodochrosite:rhodochrosite"
+  }
+}

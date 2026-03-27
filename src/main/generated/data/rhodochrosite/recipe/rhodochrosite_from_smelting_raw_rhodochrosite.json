@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "rhodochrosite",
+  "ingredient": {
+    "item": "rhodochrosite:raw_rhodochrosite"
+  },
+  "result": {
+    "id": "rhodochrosite:rhodochrosite"
+  }
+}

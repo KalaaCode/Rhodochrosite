@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rhodochrosite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rhodochrosite:raw_rhodochrosite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rhodochrosite:rhodochrosite_from_blasting_raw_rhodochrosite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_rhodochrosite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rhodochrosite:rhodochrosite_from_blasting_raw_rhodochrosite"
+    ]
+  }
+}

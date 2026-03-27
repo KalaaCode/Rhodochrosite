@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "rhodochrosite:block/rhodochrosite_block",
+    "side": "rhodochrosite:block/rhodochrosite_block",
+    "top": "rhodochrosite:block/rhodochrosite_block"
+  }
+}

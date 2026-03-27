@@ -32,9 +32,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RHODOCHROSITE_ORE, multipleOreDrops(ModBlocks.RHODOCHROSITE_ORE, ModItems.RAW_RHODOCHROSITE, 3, 5));
         addDrop(ModBlocks.RHODOCHROSITE_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.RHODOCHROSITE_DEEPSLATE_ORE, ModItems.RAW_RHODOCHROSITE, 5, 7));
 
+        addDrop(ModBlocks.RHODOCHROSITE_STAIRS);
+        addDrop(ModBlocks.RHODOCHROSITE_SLAB, slabDrops(ModBlocks.RHODOCHROSITE_SLAB));
+        addDrop(ModBlocks.RHODOCHROSITE_WALL);
+
+        addDrop(ModBlocks.RHODOCHROSITE_TORCH);
+        addDrop(ModBlocks.RHODOCHROSITE_LANTERN);
     }
 
-    public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
+    public LootTable.Builder multipleOreDrops(Block drop, Item item, int minDrops, int maxDrops) {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
         return this.dropsWithSilkTouch(drop, this.applyExplosionDecay(drop, ((LeafEntry.Builder<?>)
                 ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))

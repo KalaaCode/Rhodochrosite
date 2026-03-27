@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "rhodochrosite:block/rhodochrosite_torch"
+  }
+}

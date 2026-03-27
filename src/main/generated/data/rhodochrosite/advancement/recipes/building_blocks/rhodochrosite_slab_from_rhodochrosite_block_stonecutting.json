@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rhodochrosite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rhodochrosite:rhodochrosite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rhodochrosite:rhodochrosite_slab_from_rhodochrosite_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rhodochrosite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rhodochrosite:rhodochrosite_slab_from_rhodochrosite_block_stonecutting"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "rhodochrosite:block/rhodochrosite_wall_torch"
+    },
+    "facing=north": {
+      "model": "rhodochrosite:block/rhodochrosite_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "rhodochrosite:block/rhodochrosite_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "rhodochrosite:block/rhodochrosite_wall_torch",
+      "y": 180
+    }
+  }
+}

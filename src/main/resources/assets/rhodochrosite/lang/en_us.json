@@ -9,5 +9,12 @@
   "block.rhodochrosite.rhodochrosite_deepslate_ore": "Deepslate Rhodochrosite Ore",
 
   "itemgroup.rhodochrosite.rhodochrosite_items": "Rhodochrosite Items",
-  "itemgroup.rhodochrosite.rhodochrosite_blocks": "Rhodochrosite Blocks"
+  "itemgroup.rhodochrosite.rhodochrosite_blocks": "Rhodochrosite Blocks",
+
+  "block.rhodochrosite.rhodochrosite_stairs": "Rhodochrosite Stairs",
+  "block.rhodochrosite.rhodochrosite_slab": "Rhodochrosite Slab",
+  "block.rhodochrosite.rhodochrosite_wall": "Rhodochrosite Wall",
+
+  "block.rhodochrosite.rhodochrosite_torch": "Rhodochrosite Torch",
+  "block.rhodochrosite.rhodochrosite_lantern": "Rhodochrosite Lantern"
 }
