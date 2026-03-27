@@ -129,5 +129,74 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.RHODOCHROSITE_TORCH),
                         conditionsFromItem(ModBlocks.RHODOCHROSITE_TORCH))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,
+                        ModItems.RHODOCHROSITE_SWORD, 1)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE),
+                        conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,
+                        ModItems.RHODOCHROSITE_PICKAXE, 1)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE),
+                        conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,
+                        ModItems.RHODOCHROSITE_SHOVEL, 1)
+                .pattern(" R ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE),
+                        conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RHODOCHROSITE_AXE, 1)
+                .pattern("RR ")
+                .pattern("RS ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE), conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RHODOCHROSITE_AXE, 1)
+                .pattern(" RR")
+                .pattern(" SR")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE), conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter, Identifier.of(Rhodochrosite.MOD_ID, "rhodochrosite_axe_flipped"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RHODOCHROSITE_HOE, 1)
+                .pattern("RR ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE), conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RHODOCHROSITE_HOE, 1)
+                .pattern(" RR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.RHODOCHROSITE)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RHODOCHROSITE), conditionsFromItem(ModItems.RHODOCHROSITE))
+                .offerTo(exporter, Identifier.of(Rhodochrosite.MOD_ID, "rhodochrosite_hoe_flipped"));
     }
 }

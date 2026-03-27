@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "rhodochrosite:item/rhodochrosite_shovel"
+  }
+}

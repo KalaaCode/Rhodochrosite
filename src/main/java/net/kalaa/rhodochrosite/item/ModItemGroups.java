@@ -18,6 +18,12 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RHODOCHROSITE);
                         entries.add(ModItems.RAW_RHODOCHROSITE);
+
+                        entries.add(ModItems.RHODOCHROSITE_SWORD);
+                        entries.add(ModItems.RHODOCHROSITE_PICKAXE);
+                        entries.add(ModItems.RHODOCHROSITE_SHOVEL);
+                        entries.add(ModItems.RHODOCHROSITE_AXE);
+                        entries.add(ModItems.RHODOCHROSITE_HOE);
                     }).build());
 
     public static final ItemGroup RHODOCHROSITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

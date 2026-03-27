@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "rhodochrosite:rhodochrosite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RR ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rhodochrosite:rhodochrosite_hoe"
+  }
+}

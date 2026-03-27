@@ -16,5 +16,11 @@
   "block.rhodochrosite.rhodochrosite_wall": "Rhodochrosite Wall",
 
   "block.rhodochrosite.rhodochrosite_torch": "Rhodochrosite Torch",
-  "block.rhodochrosite.rhodochrosite_lantern": "Rhodochrosite Lantern"
+  "block.rhodochrosite.rhodochrosite_lantern": "Rhodochrosite Lantern",
+
+  "item.rhodochrosite.rhodochrosite_sword": "Rhodochrosite Sword",
+  "item.rhodochrosite.rhodochrosite_pickaxe": "Rhodochrosite Pickaxe",
+  "item.rhodochrosite.rhodochrosite_shovel": "Rhodochrosite Shovel",
+  "item.rhodochrosite.rhodochrosite_axe": "Rhodochrosite Axe",
+  "item.rhodochrosite.rhodochrosite_hoe": "Rhodochrosite Hoe"
 }

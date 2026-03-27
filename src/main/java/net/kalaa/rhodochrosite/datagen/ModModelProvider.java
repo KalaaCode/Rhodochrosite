@@ -35,5 +35,11 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator generator) {
         generator.register(ModItems.RHODOCHROSITE, Models.GENERATED);
         generator.register(ModItems.RAW_RHODOCHROSITE, Models.GENERATED);
+
+        generator.register(ModItems.RHODOCHROSITE_SWORD, Models.HANDHELD);
+        generator.register(ModItems.RHODOCHROSITE_PICKAXE, Models.HANDHELD);
+        generator.register(ModItems.RHODOCHROSITE_SHOVEL, Models.HANDHELD);
+        generator.register(ModItems.RHODOCHROSITE_AXE, Models.HANDHELD);
+        generator.register(ModItems.RHODOCHROSITE_HOE, Models.HANDHELD);
     }
 }

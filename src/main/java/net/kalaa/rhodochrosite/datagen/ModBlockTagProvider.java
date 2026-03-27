@@ -3,6 +3,8 @@ package net.kalaa.rhodochrosite.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.kalaa.rhodochrosite.block.ModBlocks;
+import net.kalaa.rhodochrosite.util.ModTags;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import java.util.concurrent.CompletableFuture;
@@ -35,5 +37,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.RHODOCHROSITE_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_RHODOCHROSITE_TOOL)
+                .add(Blocks.OBSIDIAN)
+                .add(Blocks.CRYING_OBSIDIAN)
+                .add(Blocks.RESPAWN_ANCHOR)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }
