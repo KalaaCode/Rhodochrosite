@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.kalaa.rhodochrosite.block.ModBlocks;
 import net.kalaa.rhodochrosite.item.ModItems;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -41,5 +42,10 @@ public class ModModelProvider extends FabricModelProvider {
         generator.register(ModItems.RHODOCHROSITE_SHOVEL, Models.HANDHELD);
         generator.register(ModItems.RHODOCHROSITE_AXE, Models.HANDHELD);
         generator.register(ModItems.RHODOCHROSITE_HOE, Models.HANDHELD);
+
+        generator.registerArmor(((ArmorItem) ModItems.RHODOCHROSITE_HELMET));
+        generator.registerArmor(((ArmorItem) ModItems.RHODOCHROSITE_CHESTPLATE));
+        generator.registerArmor(((ArmorItem) ModItems.RHODOCHROSITE_LEGGINGS));
+        generator.registerArmor(((ArmorItem) ModItems.RHODOCHROSITE_BOOTS));
     }
 }

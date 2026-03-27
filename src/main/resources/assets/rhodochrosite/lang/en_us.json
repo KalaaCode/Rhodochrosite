@@ -22,5 +22,10 @@
   "item.rhodochrosite.rhodochrosite_pickaxe": "Rhodochrosite Pickaxe",
   "item.rhodochrosite.rhodochrosite_shovel": "Rhodochrosite Shovel",
   "item.rhodochrosite.rhodochrosite_axe": "Rhodochrosite Axe",
-  "item.rhodochrosite.rhodochrosite_hoe": "Rhodochrosite Hoe"
+  "item.rhodochrosite.rhodochrosite_hoe": "Rhodochrosite Hoe",
+
+  "item.rhodochrosite.rhodochrosite_helmet": "Rhodochrosite Headband",
+  "item.rhodochrosite.rhodochrosite_chestplate": "Rhodochrosite Necklace",
+  "item.rhodochrosite.rhodochrosite_leggings": "Rhodochrosite Belt",
+  "item.rhodochrosite.rhodochrosite_boots": "Rhodochrosite Anklets"
 }

@@ -26,5 +26,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RHODOCHROSITE_AXE);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.RHODOCHROSITE_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.RHODOCHROSITE_HELMET)
+                .add(ModItems.RHODOCHROSITE_CHESTPLATE)
+                .add(ModItems.RHODOCHROSITE_LEGGINGS)
+                .add(ModItems.RHODOCHROSITE_BOOTS);
     }
 }

@@ -24,6 +24,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RHODOCHROSITE_SHOVEL);
                         entries.add(ModItems.RHODOCHROSITE_AXE);
                         entries.add(ModItems.RHODOCHROSITE_HOE);
+
+                        entries.add(ModItems.RHODOCHROSITE_HELMET);
+                        entries.add(ModItems.RHODOCHROSITE_CHESTPLATE);
+                        entries.add(ModItems.RHODOCHROSITE_LEGGINGS);
+                        entries.add(ModItems.RHODOCHROSITE_BOOTS);
                     }).build());
 
     public static final ItemGroup RHODOCHROSITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

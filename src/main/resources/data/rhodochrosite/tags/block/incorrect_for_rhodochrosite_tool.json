@@ -1,8 +1,5 @@
 {
   "values": [
-    "minecraft:incorrect_for_iron_tool"
-  ],
-  "remove": [
-    "#rhodochrosite:needs_rhodochrosite_tool"
+    "#minecraft:incorrect_for_iron_tool"
   ]
 }

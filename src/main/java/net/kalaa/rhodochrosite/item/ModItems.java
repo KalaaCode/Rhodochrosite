@@ -27,6 +27,19 @@ public class ModItems {
             new HoeItem(ModToolMaterials.RHODOCHROSITE, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.RHODOCHROSITE, 0, -3f))));
 
+    public static final Item RHODOCHROSITE_HELMET = registerItem("rhodochrosite_helmet",
+            new ArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(22))));
+    public static final Item RHODOCHROSITE_CHESTPLATE = registerItem("rhodochrosite_chestplate",
+            new ArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(22))));
+    public static final Item RHODOCHROSITE_LEGGINGS = registerItem("rhodochrosite_leggings",
+            new ArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(22))));
+    public static final Item RHODOCHROSITE_BOOTS = registerItem("rhodochrosite_boots",
+            new ArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(22))));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Rhodochrosite.MOD_ID, name), item);
     }
