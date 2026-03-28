@@ -40,6 +40,10 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(22))));
 
+    public static final Item RHODOCHROSITE_HORSE_ARMOR = registerItem("rhodochrosite_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Rhodochrosite.MOD_ID, name), item);
     }

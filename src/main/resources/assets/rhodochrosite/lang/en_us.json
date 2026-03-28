@@ -24,8 +24,10 @@
   "item.rhodochrosite.rhodochrosite_axe": "Rhodochrosite Axe",
   "item.rhodochrosite.rhodochrosite_hoe": "Rhodochrosite Hoe",
 
-  "item.rhodochrosite.rhodochrosite_helmet": "Rhodochrosite Headband",
-  "item.rhodochrosite.rhodochrosite_chestplate": "Rhodochrosite Necklace",
-  "item.rhodochrosite.rhodochrosite_leggings": "Rhodochrosite Belt",
-  "item.rhodochrosite.rhodochrosite_boots": "Rhodochrosite Anklets"
+  "item.rhodochrosite.rhodochrosite_helmet": "Rhodochrosite Helmet",
+  "item.rhodochrosite.rhodochrosite_chestplate": "Rhodochrosite Chestplate",
+  "item.rhodochrosite.rhodochrosite_leggings": "Rhodochrosite Leggings",
+  "item.rhodochrosite.rhodochrosite_boots": "Rhodochrosite Boots",
+
+  "item.rhodochrosite.rhodochrosite_horse_armor": "Rhodochrosite Horse Armor"
 }
