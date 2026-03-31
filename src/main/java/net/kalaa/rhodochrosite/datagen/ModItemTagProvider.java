@@ -32,5 +32,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RHODOCHROSITE_CHESTPLATE)
                 .add(ModItems.RHODOCHROSITE_LEGGINGS)
                 .add(ModItems.RHODOCHROSITE_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RHODOCHROSITE);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.JEWELRY_SMITHING_TEMPLATE);
     }
 }

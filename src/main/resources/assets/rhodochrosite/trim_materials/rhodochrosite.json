@@ -1,0 +1,9 @@
+{
+  "asset_name": "rhodochrosite",
+  "description": {
+    "color": "#FF91AF",
+    "translate": "trim_material.rhodochrosite.rhodochrosite"
+  },
+  "ingredient": "rhodochrosite:rhodochrosite",
+  "item_model_index": 1.0
+}

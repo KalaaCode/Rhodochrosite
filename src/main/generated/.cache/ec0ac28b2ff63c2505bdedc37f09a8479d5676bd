@@ -1,6 +1,8 @@
-// 1.21.1	2026-03-27T23:03:42.0100496	Rhodochrosite/Tags for minecraft:item
+// 1.21.1	2026-03-29T23:01:20.9639188	Rhodochrosite/Tags for minecraft:item
 8971e2fb1ff07186770f9a0b7e82a0fb47f75617 data\minecraft\tags\item\swords.json
 99856cb7956f65e9c375b01395251921e80444f6 data\minecraft\tags\item\axes.json
+292e137c8d008772653a9acad7db260b839d2470 data\minecraft\tags\item\trim_materials.json
+823f2a8e1e54893cb77352db6d99b081f70ca576 data\minecraft\tags\item\trim_templates.json
 63915af4864486074c638e4eac7988a261254186 data\minecraft\tags\item\hoes.json
 16de67550839e41da1e89036ac127e86f0be5cd7 data\minecraft\tags\item\trimmable_armor.json
 ee72e8dde7d05f3f6015d326422c124528a34f9a data\minecraft\tags\item\pickaxes.json

@@ -49,5 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         generator.registerArmor(((ArmorItem) ModItems.RHODOCHROSITE_BOOTS));
 
         generator.register(ModItems.RHODOCHROSITE_HORSE_ARMOR, Models.GENERATED);
+
+        generator.register(ModItems.JEWELRY_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

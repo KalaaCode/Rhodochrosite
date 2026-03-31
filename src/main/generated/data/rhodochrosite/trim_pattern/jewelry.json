@@ -1,0 +1,8 @@
+{
+  "asset_id": "rhodochrosite:jewelry",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.rhodochrosite.jewelry"
+  },
+  "template_item": "rhodochrosite:jewelry_armor_trim_smithing_template"
+}

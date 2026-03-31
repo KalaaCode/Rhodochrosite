@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.kalaa.rhodochrosite.Rhodochrosite;
 import net.kalaa.rhodochrosite.block.ModBlocks;
 import net.kalaa.rhodochrosite.item.ModItems;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -198,5 +200,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.RHODOCHROSITE), conditionsFromItem(ModItems.RHODOCHROSITE))
                 .offerTo(exporter, Identifier.of(Rhodochrosite.MOD_ID, "rhodochrosite_hoe_flipped"));
+
+        offerSmithingTrimRecipe(exporter, ModItems.JEWELRY_SMITHING_TEMPLATE, Identifier.of(Rhodochrosite.MOD_ID, "jewelry"));
+        offerSmithingTemplateCopyingRecipe(exporter, ModItems.JEWELRY_SMITHING_TEMPLATE, Items.CALCITE);
     }
 }

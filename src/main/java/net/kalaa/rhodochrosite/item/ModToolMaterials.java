@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     RHODOCHROSITE(ModTags.Blocks.INCORRECT_FOR_RHODOCHROSITE_TOOL,
-            1200, 7.5F, 2.75F, 20, () -> Ingredient.ofItems(ModItems.RHODOCHROSITE));
+            225, 7.5F, 2.75F, 20, () -> Ingredient.ofItems(ModItems.RHODOCHROSITE));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

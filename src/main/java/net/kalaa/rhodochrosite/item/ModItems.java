@@ -5,6 +5,7 @@ import net.kalaa.rhodochrosite.Rhodochrosite;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -43,6 +44,8 @@ public class ModItems {
     public static final Item RHODOCHROSITE_HORSE_ARMOR = registerItem("rhodochrosite_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.RHODOCHROSITE_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
+    public static final Item JEWELRY_SMITHING_TEMPLATE = registerItem("jewelry_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(Rhodochrosite.MOD_ID, "jewelry"), FeatureFlags.VANILLA));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Rhodochrosite.MOD_ID, name), item);

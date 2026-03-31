@@ -31,6 +31,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RHODOCHROSITE_BOOTS);
 
                         entries.add(ModItems.RHODOCHROSITE_HORSE_ARMOR);
+
+                        entries.add(ModItems.JEWELRY_SMITHING_TEMPLATE);
                     }).build());
 
     public static final ItemGroup RHODOCHROSITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

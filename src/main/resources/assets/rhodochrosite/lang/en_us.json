@@ -29,5 +29,9 @@
   "item.rhodochrosite.rhodochrosite_leggings": "Rhodochrosite Leggings",
   "item.rhodochrosite.rhodochrosite_boots": "Rhodochrosite Boots",
 
-  "item.rhodochrosite.rhodochrosite_horse_armor": "Rhodochrosite Horse Armor"
+  "item.rhodochrosite.rhodochrosite_horse_armor": "Rhodochrosite Horse Armor",
+
+  "item.rhodochrosite.jewelry_armor_trim_smithing_template": "Smithing Template",
+  "trim_material.rhodochrosite.rhodochrosite": "Rhodochrosite Material",
+  "trim_pattern.rhodochrosite.jewelry": "Jewelry Armor Trim"
 }

@@ -17,16 +17,21 @@ import java.util.function.Supplier;
 
 public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> RHODOCHROSITE_ARMOR_MATERIAL = registerArmorMaterial("rhodochrosite",
-            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.BOOTS, 2);
-                map.put(ArmorItem.Type.LEGGINGS, 4);
-                map.put(ArmorItem.Type.CHESTPLATE, 6);
-                map.put(ArmorItem.Type.HELMET, 2);
-                map.put(ArmorItem.Type.BODY, 4);
-            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(ModItems.RHODOCHROSITE),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(Rhodochrosite.MOD_ID, "rhodochrosite"))), 0, 0));
-
-
+            () -> new ArmorMaterial(
+                    Util.make(new EnumMap<ArmorItem.Type, Integer>(ArmorItem.Type.class), map -> {
+                        map.put(ArmorItem.Type.BOOTS, 1);
+                        map.put(ArmorItem.Type.LEGGINGS, 2);
+                        map.put(ArmorItem.Type.CHESTPLATE, 3);
+                        map.put(ArmorItem.Type.HELMET, 1);
+                        map.put(ArmorItem.Type.BODY, 3);
+                    }),
+                    20,
+                    SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+                    () -> Ingredient.ofItems(ModItems.RHODOCHROSITE),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(Rhodochrosite.MOD_ID, "rhodochrosite"))),
+                    0.0f,
+                    0.0f
+            ));
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(Rhodochrosite.MOD_ID, name), material.get());
     }
